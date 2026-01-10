@@ -1,10 +1,10 @@
-# chess_com.py
-Web-API for [chess.com](https://chess.com) that created to get player data, game data, and clubs/tournaments information
+# chess.py
+Web-API for [chess.com](https://chess.com) to get player data, game data, and clubs/tournaments information
 
 ## Example
 ```python3
-import chess_com
-chess_com = chess_com.ChessCom()
-player_info = chess_com.get_player_info(username="")
-print(player_info)
+import chess
+
+chess = chess.Chess()
+chess.login(email="", password="")
 ```
