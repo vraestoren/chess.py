@@ -3,8 +3,8 @@ Web-API for [chess.com](https://chess.com) to get player data, game data, and cl
 
 ## Example
 ```python3
-import chess
+from chess import Chess
 
-chess = chess.Chess()
-chess.login(email="", password="")
+chess = Chess()
+chess.login(email="example@gmail.com", password="password")
 ```
